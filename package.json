@@ -1,5 +1,5 @@
 {
-  "name": "ktv-chat-app",
+  "name": "communication-app",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vunyin/KTV-chat-app.git"
+    "url": "git+https://github.com/SENKUNTHY/communication-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vunyin/KTV-chat-app/issues"
+    "url": "https://github.com/SENKUNTHY/communication-app/issues"
   },
-  "homepage": "https://github.com/vunyin/KTV-chat-app#readme",
+  "homepage": "https://github.com/SENKUNTHY/communication-app#readme",
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.7"
