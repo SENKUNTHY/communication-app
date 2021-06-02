@@ -1,10 +1,10 @@
 // const e = require("express");
 
 
-const SERVER_IP = "192.168.56.1";
-const SERVER_PORT = 5000;
-const BASE_URL = "http://" + SERVER_IP + ":" + SERVER_PORT + "/text";
-// const BASE_URL = "https://ktv-chat-app.herokuapp.com/text";
+// const SERVER_IP = "192.168.56.1";
+// const SERVER_PORT = 5000;
+// const BASE_URL = "http://" + SERVER_IP + ":" + SERVER_PORT + "/text";
+const BASE_URL = "https://communication-application.herokuapp.com/text";
 let autoScroll = true;
 
 /**
@@ -130,7 +130,7 @@ function showImage(res, username) {
 function getImage() {
     let user = localStorage.getItem('username');
     axios
-        .get("http://192.168.56.1:5000/datausers")
+        .get("https://communication-application.herokuapp.com/datausers")
         .then(res => showImage(res, user))
 }
 

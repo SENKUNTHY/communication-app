@@ -1,7 +1,7 @@
-const SERVER_IP = "192.168.56.1";
-const SERVER_PORT = 5000;
-const BASE_URL = "http://" + SERVER_IP + ":" + SERVER_PORT ;
-// const BASE_URL = "https://ktv-chat-app.herokuapp.com";
+// const SERVER_IP = "192.168.56.1";
+// const SERVER_PORT = 5000;
+// const BASE_URL = "http://" + SERVER_IP + ":" + SERVER_PORT ;
+const BASE_URL = "https://communication-application.herokuapp.com";
 
 /**
  * 
